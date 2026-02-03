@@ -17,9 +17,9 @@
     <ul id="file-list"></ul>
 
     <script>
-    const user = 'TirRT';      // Reemplaza por tu usuario
+    const user = 'tirrt';      // Reemplaza por tu usuario
     const repo = 'images';         // Reemplaza por tu repo
-    const path = 'images';       // Reemplaza por la ruta dentro del repo
+    const path = '';       // Reemplaza por la ruta dentro del repo
 
     fetch(`https://api.github.com/repos/${user}/${repo}/contents/${path}`)
       .then(response => response.json())
